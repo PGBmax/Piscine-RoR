@@ -27,17 +27,17 @@
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
 		<br><br>
-		<label>Homme</label>
-		<input type="radio" id="gender_male" name="gender">
-		<label>Femme</label>
-		<input type="radio" id="gender_female" name="gender">
-		<label>Autre</label>
-		<input type="radio" id="gender_other" name="gender">
-		<br><br>
 		<label>From 42?</label>
 		<input type="checkbox" id="student" name="student">
 		<br><br>
-		<input type="button" name="Click stp" onclick="displayFormContents()">
+		<label>Homme</label>
+		<input type="radio" id="gender_male" name="gender" value="male"><br>
+		<label>Femme</label>
+		<input type="radio" id="gender_female" name="gender" value="female"><br>
+		<label>Autre</label>
+		<input type="radio" id="gender_other" name="gender" value="other">
+		<br><br>
+		<input type="submit" value="Submit" onclick="displayFormContents() ">
 	</form>
 	<script src="popup.js"></script>
 </body>
