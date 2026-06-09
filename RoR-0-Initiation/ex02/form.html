@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style>
+		body {
+			font-family: 'Orbitron', monospace;
+			letter-spacing: 1px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="firstname">Firstname: </label>
+		<input type="text" id="firstname" name="firstname" placeholder="John">
+		<br><br>
+		<label for="name">Name: </label>
+		<input type="text" id="name" name="name" placeholder="Doe">
+		<br><br>
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" placeholder="06 06 06 06 06">
+		<br><br>
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" placeholder="0-999">
+		<br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+		<br><br>
+		<label>Homme</label>
+		<input type="radio" id="gender_male" name="gender">
+		<label>Femme</label>
+		<input type="radio" id="gender_female" name="gender">
+		<label>Autre</label>
+		<input type="radio" id="gender_other" name="gender">
+		<br><br>
+		<label>From 42?</label>
+		<input type="checkbox" id="student" name="student">
+		<br><br>
+		<input type="button" name="Click stp" onclick="displayFormContents()">
+	</form>
+	<script src="popup.js"></script>
+</body>
+</html>
